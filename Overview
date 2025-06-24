@@ -1,0 +1,77 @@
+# 📊 Stock Price Prediction Using Machine Learning
+
+This project focuses on predicting stock prices using historical financial data and basic machine learning techniques. It offers a hands-on demonstration of how time-series data can be analyzed, visualized, and used to forecast future stock trends.
+
+## 🧠 Objective
+
+The main objective is to train a predictive model that can estimate future stock prices based on patterns in historical data. It showcases the practical application of regression models in financial forecasting.
+
+---
+
+## 📁 Project Structure
+
+- **Stock_Price_Prediction.ipynb**: Main Jupyter notebook containing the complete code pipeline.
+- **Dataset**: The dataset file is included in the repository for convenience and reproducibility.
+
+---
+
+## 🛠️ Technologies & Libraries Used
+
+- **Python**
+- **Pandas** – data manipulation
+- **NumPy** – numerical computations
+- **Matplotlib & Seaborn** – data visualization
+- **Scikit-learn** – machine learning (regression models)
+
+---
+
+## 🔍 Workflow Overview
+
+1. **Importing and Exploring Data**
+   - Load stock market data
+   - Inspect and clean data (handle null values)
+
+2. **Data Visualization**
+   - Plot trends over time (closing price, volume, etc.)
+   - Use plots to understand patterns and outliers
+
+3. **Feature Engineering**
+   - Select relevant features (Open, Close, High, Low, Volume)
+   - Create train/test splits
+
+4. **Model Training**
+   - Apply regression model (e.g., Linear Regression)
+   - Train on historical price data
+
+5. **Model Evaluation**
+   - Compare predictions with actual values
+   - Visualize predicted vs. actual stock prices
+
+---
+
+## 📌 Notes
+
+- This project is intended for educational purposes only.
+- Stock markets are influenced by numerous unpredictable factors; this model should not be used for real financial investments.
+
+---
+
+## 📂 Dataset
+
+The dataset used contains daily stock price data including:
+- Date
+- Open
+- High
+- Low
+- Close
+- Volume
+
+It is already included in this repository for easy access.
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository.
+2. Open `Stock_Price_Prediction.ipynb` in Jupyter Notebook or Google Colab.
+3. Run the notebook cells step-by-step to follow the analysis and predictions.
